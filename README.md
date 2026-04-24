@@ -114,7 +114,7 @@ By identifying churn drivers and retention opportunities, organizations can enha
 
 ## 🔗 Project Links
 
-* 📂 GitHub Repository: (Add your link)
+* 📂 GitHub Repository: https://github.com/zainabmapkar10-pixel/FUTURE_DS_02 
 * 📊 Dashboard File: https://drive.google.com/drive/folders/1N18OjRARxwTsyOuqKvOyYqu4j9dNMAZT?usp=drive_link 
 
 ---
