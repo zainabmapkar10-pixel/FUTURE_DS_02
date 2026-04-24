@@ -6,7 +6,7 @@ Customer churn and retention analysis using Power BI, with insights on customer 
 # 📌 Project Overview
 
 Customer churn is a critical challenge for subscription-based businesses, directly impacting revenue and growth.
-This project analyzes customer data to identify churn patterns, understand retention drivers, and evaluate customer lifetime trends.
+This project analyzes customer data to identify churn patterns, understand retention drivers and evaluate customer lifetime trends.
 
 An interactive Power BI dashboard was developed to transform raw data into actionable insights for business decision-making.
 
@@ -31,16 +31,16 @@ An interactive Power BI dashboard was developed to transform raw data into actio
 
 ## 📂 Dataset
 
-* **Telco Customer Churn Dataset (Kaggle)**
-* Includes customer demographics, services, subscription details, and churn status
+* **Telco Customer Churn Dataset (taken from Kaggle)**
+* Includes customer demographics, services, subscription details and churn status
 
 ---
 
 ## 📊 Dashboard Structure
 
-### 🔹 Page 1: Churn Overview Dashboard
+### 🔹 Page 1: Customer Retention Overview
 
-* KPI Cards (Total Customers, Churn Rate, Avg Tenure)
+* KPI Cards (Total Customers, Churn Customers, Churn Rate, Avg Tenure)
 * Customer Churn Distribution
 * Churn by Contract Type, Payment Method
 * Customer Distribution by Internet Service
@@ -49,28 +49,15 @@ An interactive Power BI dashboard was developed to transform raw data into actio
 
 ---
 
-### 🔹 Page 2: Churn Insights & Recommendations
+### 🔹 Page 2: Customer Churn Analysis & Insights
 
 * Customer Tenure Distribution
 * Churn by Monthly Charges
 * Impact of Tech Support and Online Security
 * Service Usage vs Churn Analysis
-* Customer Behavior (Scatter Analysis)
+* Customer Behavior
 * Business Insights & Strategic Recommendations
-
----
-
-## 📈 Key Metrics (DAX Measures)
-
-```DAX
-Total Customers = COUNT(CustomerID)
-
-Churn Customers = CALCULATE(COUNT(CustomerID), Churn = "Yes")
-
-Churn Rate = DIVIDE([Churn Customers], [Total Customers])
-
-Avg Tenure = AVERAGE(Tenure)
-```
+* Interactive slicers for dynamic filtering
 
 ---
 
@@ -96,13 +83,15 @@ Avg Tenure = AVERAGE(Tenure)
 
 ## 📸 Dashboard Preview
 
-### 🔹 Overview Page
+### 🔹 Page 1
 
-![Overview Dashboard](dashboard_overview.png)
+<img width="1613" height="845" alt="image" src="https://github.com/user-attachments/assets/19953771-ed9d-4ab3-80e4-713209ae4111" />
 
-### 🔹 Insights Page
 
-![Insights Dashboard](dashboard_insights.png)
+### 🔹 Page 2
+
+<img width="1626" height="841" alt="image" src="https://github.com/user-attachments/assets/c14fe4d0-be43-4614-b8dc-3e91281c0675" />
+
 
 ---
 
@@ -126,7 +115,7 @@ By identifying churn drivers and retention opportunities, organizations can enha
 ## 🔗 Project Links
 
 * 📂 GitHub Repository: (Add your link)
-* 📊 Dashboard File: (Optional link if hosted)
+* 📊 Dashboard File: https://drive.google.com/drive/folders/1N18OjRARxwTsyOuqKvOyYqu4j9dNMAZT?usp=drive_link 
 
 ---
 
