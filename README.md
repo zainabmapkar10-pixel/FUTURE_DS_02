@@ -31,7 +31,7 @@ An interactive Power BI dashboard was developed to transform raw data into actio
 
 ## 📂 Dataset
 
-* **Telco Customer Churn Dataset (taken from Kaggle)**
+* **Telecom Customer Churn Dataset (taken from Kaggle)**
 * Includes customer demographics, services, subscription details and churn status
 
 ---
